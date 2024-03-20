@@ -20,12 +20,3 @@ const address = `${fName} ${lName}
 ${houseNum}, ${street}
 ${city}, ${state}
 ${zip}`
-
-*/
-
-const add = {sharon} {bacchus}
-const houseNum = {140 LawrenceStreet}
-const city = {NewHydePark} 
-const state = {NY}
-const zip = {11040}
-console.log (add)
