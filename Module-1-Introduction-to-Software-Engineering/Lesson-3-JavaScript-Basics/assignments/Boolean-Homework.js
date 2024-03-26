@@ -1,10 +1,10 @@
 //1. Write a statement that checks if 2 and 'two' are equal
-let statement = 2!=='two'
+let statement = 2 ==='two'
 console.log(statement)
 
 
 //2. Write a statement that checks if '2' and 2 are loosely equal
-let statement1 = "2" !=2
+let statement1 = "2" ==2
 console.log(statement1)
 
 //3. Write a statement that checks if 14 and '14' are strictly equal
@@ -18,23 +18,20 @@ console.log(statement3)
 
 
 //5. Write a statement that checks if 4 is strictly equal to the rounded value of 4.4
-let statement4 = 4 === "4.4"
-console.log(statement4)
+ 4 === Math.round ("4.4")
+console.log()
 
 //6. Write a statement that checks if 10 is greater than or equal to 9.1 rounded up
-let statement5 = 10 >=9.1
-console.log(statement5)
+ 10 >= Math.ceil(9.1)
+console.log()
 
 //7. Write a statement that checks if 10 is greater than 2 and 3 is greater than 4
-let statement6 = 10 > 2
-console.log(statement6)
-
-let statement7 = 3 > 4
-console.log(statement7)
 
 
+console.log(10 > 2 && 3 > 4)
+console.log (true && false)
 // // 7.a Without changing any of the numbers, or their order. How do we make this print true?
-console.log(statement6 !== statement7)
+console.log(10 > 2 || 3 > 4)
 
 
 
@@ -47,18 +44,18 @@ console.log(statement6 !== statement7)
 // // If your number of watermelons is more than 10, print, 'You must be CRAZY for watermelon!'
 // // If your number of watermelons is more than 15, print, 'Did you have a coupon?'
 
-  const a = "7"
+  const numOfWM = 7
 
 //   if(a === 1 || a ===  2) {
 //     console.log('Looks like you like watermelon')
 
-//   } else if (a > 2 && a <= 5) {
+//   } else if (a > 2 && a <= 5) { //3 4 5 
 //     console.log('Thats a lot of watermelon')
 
-//   } else if (a > 5 && 7 <= 10){
+//   } else if (a > 5 && 7 <= 10){// 6 7 8 9  10
 //     console.log('Thats too many watermelon!')
 
-//   } else if (a > 10 && a <= 15) {
+//   } else if (a > 10 && a <= 15) { // 11 12 13 14 15
 //     console.log('You must be CRAZY for watermelon!')
 
 //   } else {
@@ -69,13 +66,11 @@ console.log(statement6 !== statement7)
 //   // Using a ternary, if your hunger is greater than 6 print, 'Time to eat!'
 //   // Otherwise print. "I'm not hungry"
 
-let hungerlevel = '1 - 10'
+ 
 
-let hungerlevelmorethan6 = 'Time to eat!'
+const hunger = 8
+hunger > 6 ? console.log("Time to  eat") : console.log("I'm not hungry")
 
-let text = hungerlevel === hungerlevelmorethan6 ? "hungerlevel === hungerlevelmorethan6" : "I'm not hungry" 
-    console.log(text) 
-    
 // 10. Think of an Magic-8 Ball
 // Write a switch statement that works the same way.
 // When you run this file you should
@@ -87,16 +82,21 @@ let text = hungerlevel === hungerlevelmorethan6 ? "hungerlevel === hungerlevelmo
 // The console prints out:
 // Will I win the lottery? Not Likely.
 
-let lucky8 = (Math.random()*8)
-console.log(lucky8)
+const randomNum = Math.ceil(Math.random ()*8)
 
-if(lucky8 === "Will i win the lottery");
+switch(randomNum){
+    case 1:
+    console.log(1)
 
-if(lucky8 === "Will you win the lottery"){
-} else {
-    console.log("Will you win the lottery? Not likely")
+break;
+case 2:
+    console.log(2) 
+break;
 }
-    
+
+
+
+  
 
 
 
