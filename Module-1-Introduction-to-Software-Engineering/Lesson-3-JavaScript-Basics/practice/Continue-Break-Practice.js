@@ -23,30 +23,26 @@ for(let i = 0; i < string.length; i++) {
 // // // ex: Input: ['a','b','c', 100,'e']
 // // // Output: 'at index 3 there is the number 100'
 
-let numbers = "10, 20, 100, 30, 40, 50";
+let numbers = "10, 20, c, 100, 30, 40, 50";
 
-for (let i = 100; i = 100; ) {
+for (let i = 0; i < Array.length; i++) {
+    const element = array[i]
+    if(typeof (element) === "number"){
+        console.log(`at index ${i} there is the number ${element}`)
+    }
 console.log(numbers);
-    if(numbers[i] === 100){
+    
 
         break;
     }
 
-}
 
 // 3. Using the continue keyword loop over an array of numbers & strings
 // // If the current element is a number skip it
 // // Otherwise add the element to an array
 // // After finishing the loop log the new array to the console
 
-const numString = ['a', 'b', 'c', 'a', 'd', 'e', '5', '10', '15', "How are you"]; // Array of letters
 
-for (let i = 0; i < letters.length; i++) {
-  for (let j = i + 1; j < letters.length; j++) {
-    console.log(`${letters[i]} : ${letters[j]}`)
-  }
-  console.log('End of main loop')
-}
 
 
 

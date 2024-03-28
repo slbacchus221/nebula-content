@@ -57,8 +57,7 @@ for(let i = 0; i < numArray.length; i++){
         const positiveArr = [];
         const negativeArr = [];
 
-        for(let i = 0; 1 < nums.length; i++)
-        if(nums[i] == positive[i])
+       
         console.log(nums[i])
 if(nums[i] == 
         console.log(nums[i])

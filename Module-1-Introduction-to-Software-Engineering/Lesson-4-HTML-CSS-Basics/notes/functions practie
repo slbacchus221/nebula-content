@@ -1,0 +1,27 @@
+function multiplyBy10(num){
+    return num * 10
+
+console.log(multiplyby10(num)(5))
+}
+
+
+const sayGoodbye = (name) => {
+    return  `Goodbye ${name} 
+}   
+
+console.log(sayGoodbye("Sharon"))
+
+
+
+
+const evenNumbers = function (array){
+    const evenArray = []
+    for(let i = 0; i < array.length; i++){
+        console.log(array[i])
+        const currentNum = array[i];
+        if(currentNum % 2 === 0){
+            const even = Num;
+            evenArray.push(even);
+
+        }
+    }
