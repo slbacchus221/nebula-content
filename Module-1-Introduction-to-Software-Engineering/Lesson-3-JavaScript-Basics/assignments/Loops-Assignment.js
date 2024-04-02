@@ -34,7 +34,7 @@ for(let i = 0; i <= celebrity.length; i++){
 
 for(let i = 0; i <= celebrity.length; i++){
     const firstLast = celebrity[i]
-    if(firstLast % 2 === 2[i])
+    if(celebrity.length % 2 === 0)
     console.log(celebrityName)
 }
    
