@@ -23,58 +23,37 @@ console.log(vehicle["price"], vehicle["length"],["transmission"])
 
 // 4.Try and log a property that doesn't already exist - what output do we get?
 
-console.log['color'] = 'black'; 
+console.log(vehicle.wheels)  
 
 // 5.Add a new key-value pair to the vehicle. 
-const vehicle1= {
-    model: "Range Rover Sport",
-    color: "white",
-    engine: "V6",
-    length: "192.1",
-    price: "120,000",
-    transmission: "automatic",
-    features: {
-        horsepower: 542,
-        accessories: runningboard
-
-    },
-start() {
-    console.log("vehicle1")
-}
-}
-
+vehicle.features = 'horsepower 542'
+           
 
 // 6. Using bracket-notation update a property on the vehicle. 
-let newSpeed = 220
-
-console.log(newSpeed)
-function topSpeed(value){
-
-}
+vehicle['let newSpeed'] = 220
 
 
 // 7. Using dot-notation update a property on the vehicle. 
-let newColor = "black"
-
-console.log(newColor.color[black])
-function topSpeed(value){
-
-}
+vehicle.isMessy = true
 
 
 // 8. Create a method for turning your vehicle on
 function startCar(){
-    console.log("get ready!");
+    console.log("get ready");
+    vehicle.isOn = true
 
 }
-vehicle.start = startCar;
-
+vehicle.start = startCar
+vehicle.start()
+console.log(vehicle)
 // 9.Create a method for turning your vehicle off
-function turnOff(){
-    console.log("shut down");
+function turnOffCar(){
+    console.log("The car is off");
+    vehicle.isOn = false
 
 }
-vehicle.off = turnOff;
+vehicle.turnOffCar = turnOffCar
+
 
 //10.   
 // // a. Check if your vehicle is on (it should be off)
@@ -83,6 +62,12 @@ vehicle.off = turnOff;
 // // d. Stop your vehicle
 // // e. Check if your vehicle is on (it should be on)
 
-console.log([vehicle.Itshouldbeon === "Stop your vehicle"])
+
+if(vehicle.isOn){
+    vehicle.turnOffCar()
+}else{
+    vehicle.start()
+
+}
 
 

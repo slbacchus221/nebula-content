@@ -25,4 +25,4 @@ else if ("CupCake finished in second place!"){}
 console.log("CupCake finished in third place!")
 
 // If position is greater than 4, log to the console: "(Cup Cake) did not finish in the top 3."
-console.log("CupCake did not finish in the top 3")
+console.log(
