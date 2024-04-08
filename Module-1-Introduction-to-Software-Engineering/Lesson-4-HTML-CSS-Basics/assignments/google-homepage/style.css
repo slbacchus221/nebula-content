@@ -1,29 +1,44 @@
-* {
-    margin: 0;
 
-}
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     height: 100vh
-
+    
 }
 
 /*Header*/
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 30 px;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
    
 }
 
 .header a {
-    margin-right: 20px;
+    margin-center: 20px;
     color: black 
 font-size 15px;
-text-decoration: inherit;
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+
     
 }
 
@@ -34,18 +49,29 @@ text-decoration: inherit;
 .header__right {
     display: flex;
     align-items: center;
-    min-width: 13vw
-    justify-content space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
 
 }
-
-.header__right .header__apps {
-    margin-right: 10px;
-}
-
-.mainBody {
-    flex: 1;
-    dispaly: flex
+    
    
 
+.mainBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between,
+    gap: 10px,
+    border-radius: 8px,
+    padding: 10px,
+    height: 1000px;
+ 
 }
+
