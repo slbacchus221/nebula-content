@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    background-color: lawngreen;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 500px;
+    flex-wrap: wrap;
+    font-size: large;
+
+}
+
+
